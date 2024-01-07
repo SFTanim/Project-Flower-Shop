@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* ___________________________________________________HEADER */
+header {
+    padding: 40px 190px 0px 190px;
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_side {
+    text-align: left;
+    max-width: 470px;
+}
+
+.header_side h2 {
+    margin-bottom: 20px;
+    color: #272727;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.header_side p {
+    margin-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header_pic img {
+    height: 570px;
+}
+
+/* _____________________________________________________Section-01 */
+.featured_flower {
+    margin: 150px 0px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.featured_flower h1,
+p {
+    margin: 30px 0px;
+}
+
+.flowers {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+}
+
+.flower {
+    /* border: 2px solid black; */
+    padding: 0px;
+}
+
+.flower img,
+a {
+    display: block;
+}
+
+.flower img {
+    /* border: 2px solid red; */
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 230px;
+    height: 300px;
+    padding: 60px 40px 0px 40px;
+}
+
+.flowers a {
+    margin-top: 15px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+#Special_flower {
+    padding-top: 110px;
+    height: 250px;
+}
+
+/* ____________________________________________Services */
+.services {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.all_service {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 70px 170px;
+    margin-bottom: 100px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    height: 80px;
+}
+
+.service h3 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ____________________________________________SIGN UP SECTION */
+.sign_up {
+    padding: 90px 270px 90px 270px;
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.sign_up_title {
+    text-align: center;
+    max-width: 470px;
+}
+
+.sign_up_title h2 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.sign_up_title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.span_off {
+    color: #E55473;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sign_up_pic img {
+    height: 350px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+h1,
+p,
+button {
+    margin: 10px 0px;
+}
+
+/* __________________________________SUBSCRIBE SITE */
+.subscribe_site {
+    margin: 40px auto;
+    display: flex;
+    width: 1300px;
+    height: 300px;
+    background-image: url("../Flower/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.form p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.form input {
+    padding: 20px 300px 20px 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+/* _______________________________________________FOOTER */
+footer{
+    margin-top: 100px;
+    padding: 140px 0px;
+    border: 2px solid black;
+    text-align: center;
+    background: #111010;
+}
+footer h1 {
+    margin-bottom: 20px;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+.span_shop{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
